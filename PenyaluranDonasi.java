@@ -49,9 +49,9 @@ public class PenyaluranDonasi {
     }
     
     private static void initializeData() {
-        listDonasi.add(new Donasi(nextId++, "Ahmad Suharto", 500000, "01/09/2024", "Panti Asuhan Harapan", "Tersalurkan"));
-        listDonasi.add(new Donasi(nextId++, "Siti Rahma", 250000, "05/09/2024", "Masjid Al-Ikhlas", "Menunggu"));
-        listDonasi.add(new Donasi(nextId++, "Budi Santoso", 1000000, "10/09/2024", "Korban Bencana Alam", "Tersalurkan"));
+        listDonasi.add(new Donasi(nextId++, "Timothy Ronald", 50000000, "01/09/2024", "Panti Asuhan Harapan", "Tersalurkan"));
+        listDonasi.add(new Donasi(nextId++, "Ahmad Sahroni", 25000, "05/09/2024", "Masjid Al-Ikhlas", "Menunggu"));
+        listDonasi.add(new Donasi(nextId++, "Ali Le'ey", 5000000, "10/09/2024", "Korban Bencana Alam", "Tersalurkan"));
     }
     
     private static void tampilkanMenu() {
@@ -226,3 +226,4 @@ class Donasi {
                            id, namaDonatur, jumlahDonasi, tanggalDonasi, penerima, status);
     }
 }
+
